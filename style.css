@@ -1,0 +1,210 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    background-color: #1e1e1e; /* Dark background for contrast */
+}
+
+/* Container */
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+/* Left Sidebar */
+.left {
+    width: 250px;
+    background-color: #2d2d2d;
+    padding: 20px;
+    border-right: 1px solid #444;
+}
+
+/* Left Sidebar Elements */
+.home, .library {
+    margin-bottom: 20px;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    margin: 30px 0;
+    color: #cccccc;
+    font-size: 16px;
+}
+
+li img {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.items-centre {
+    display: flex;
+    align-items: center;
+}
+
+.items-centre:hover {
+    color: #ffffff;
+}
+
+/* Library Section */
+.library .heading {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.library img {
+    margin-right: 10px;
+    width: 24px;
+    height: 24px;
+}
+
+.footer a {
+    color: #cccccc;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+/* Right Section */
+.right {
+    flex: 1;
+    background-color: #2d2d2d;
+    padding: 20px;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #444;
+    padding-bottom: 10px;
+}
+
+.nav svg {
+    margin-right: 20px;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.b1, .b2 {
+    background-color: #ff0000;
+    border: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.b2 {
+    background-color: #333333;
+}
+
+/* Card Container */
+.CardContainer {
+    margin-top: 20px;
+}
+
+.CardContainer h1 {
+    margin-bottom: 20px;
+}
+
+/* Card Styles */
+.card {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    padding: 10px 0;
+}
+
+.c {
+    background-color: #333333;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 200px;
+    text-align: center;
+    position: relative;
+    padding: 10px;
+}
+
+.c img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.c:hover .play {
+    opacity: 1;
+}
+
+.play svg {
+    fill: #ffffff;
+}
+
+/* Devotional Section */
+.Devotional {
+    margin-top: 40px;
+}
+
+.Devotional h1 {
+    margin-bottom: 20px;
+}
+
+.Devotional .card {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    padding: 10px 0;
+}
+
+.foot-panel1
+{
+    /* align-items: end; */
+    bottom: 0;
+    position: fixed;
+}
+.foot-panel1 a{
+color: red;
+}
+

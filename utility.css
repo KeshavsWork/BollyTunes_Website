@@ -1,0 +1,63 @@
+.border 
+{
+    border: 2px solid red ;
+    margin: 2px;
+}
+
+.flex
+{
+    display: flex;
+}
+
+.items-centre
+{
+    align-items: center;
+}
+
+.justify-content
+{
+    justify-content: center;
+}
+.home ul li {
+    display: flex;
+    width: 14px;
+    gap: 3px;
+    list-style: none;
+    padding-top: 14px;
+}
+.heading
+{
+    display: flex;
+    width: 100%;
+    gap: 15px;
+    padding-top: 14px;
+    font-weight: bold;
+    align-items: center;
+}
+.heading img{
+    width: 30px;
+}
+.invert{
+    filter: invert(1);
+}
+.bg-black
+{
+    background-color: black;
+    color: white;
+}
+.bg-grey
+{
+    background-color: #121212;
+    color: white;
+}
+.rounded
+{
+    border-radius: 7px;
+}
+.m-1{
+    margin: 5px;
+}
+.p-1
+{
+    padding: 10px;
+}
